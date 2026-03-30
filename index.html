@@ -4,7 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rota | Akıllı Rota Planlama</title>
-  <meta name="description" content="Rota ile konumlarını sırala, rotanı planla, kayıtlı haritalarını yönet ve mobilde de rahatça kullan." />
+  <meta
+    name="description"
+    content="Rota ile konumlarını ekle, sırala, optimize et, paylaş ve hazır haritanı Google Haritalar’da yol tarifine dönüştür."
+  />
   <style>
     :root {
       --bg: #081120;
@@ -191,7 +194,7 @@
       margin: 0;
       max-width: 660px;
       font-size: 1.08rem;
-      line-height: 1.8;
+      line-height: 1.75;
       color: var(--muted);
     }
 
@@ -455,7 +458,7 @@
     .feature-card p {
       margin: 0;
       color: var(--muted);
-      line-height: 1.75;
+      line-height: 1.7;
       font-size: 0.97rem;
     }
 
@@ -648,12 +651,12 @@
         <div>
           <div class="eyebrow">
             <span class="eyebrow-dot"></span>
-            Harita tabanlı akıllı rota planlama deneyimi
+            Akıllı rota planlama deneyimi
           </div>
 
           <h1>
-            Konumlarını sırala,
-            <span class="accent">rotanı tek ekranda yönet.</span>
+            Konumlarını yönet,
+            <span class="accent">rotanı akıllıca oluştur.</span>
           </h1>
 
           <p>
@@ -670,7 +673,8 @@
             <span><i></i>En kısa yol</span>
             <span><i></i>Yakıt tasarrufu</span>
             <span><i></i>Harita paylaşımı</span>
-            <span><i></i>Deneme sürümü</span>
+            <span><i></i>Google Haritalar yol tarifi</span>
+            <span><i></i>Android ve iPhone’da mobil web app</span>
           </div>
         </div>
 
@@ -679,7 +683,7 @@
             <div class="mockup-dots" aria-hidden="true">
               <span></span><span></span><span></span>
             </div>
-            <div class="mockup-label">Rota Planlayıcı Arayüzü</div>
+            <div class="mockup-label">Rota Planlayıcı</div>
           </div>
 
           <div class="search-bar">
@@ -687,7 +691,7 @@
               <circle cx="11" cy="11" r="7"></circle>
               <path d="m20 20-3.5-3.5"></path>
             </svg>
-            <span>Harita üzerinde yer ara, konum ekle ve rotanı düzenle</span>
+            <span>Konum ekle, sırala ve rotanı hazırla</span>
           </div>
 
           <div class="mockup-grid">
@@ -709,8 +713,8 @@
                 <p>Haritalarını kaydet, tekrar aç, paylaş ve Google Haritalar’da yol tarifine dönüştür.</p>
               </div>
               <div class="mini-card">
-                <h3>Pratik Kullanım</h3>
-                <p>Mobilde ve webde sade, dengeli görünür.</p>
+                <h3>Mobil Kullanım</h3>
+                <p>Hem Android hem iPhone’da mobil web app olarak kullanılabilir.</p>
               </div>
             </div>
           </div>
@@ -722,9 +726,7 @@
       <div class="container">
         <div class="section-head">
           <h2>Rota ne sunuyor?</h2>
-          <p>
-            Gerekli olanı öne çıkaran sade bir rota planlama deneyimi.
-          </p>
+          <p>Gerekli olanı öne çıkaran sade bir rota planlama deneyimi.</p>
         </div>
 
         <div class="feature-grid">
@@ -736,9 +738,7 @@
               </svg>
             </div>
             <h3>Harita Üzerinde Nokta Yönetimi</h3>
-            <p>
-              Başlangıç noktası ve diğer duraklar harita üzerinde kolayca eklenebilir. Böylece kullanıcı rota mantığını soyut listeler yerine doğrudan mekânsal bir görünüm içinde takip eder.
-            </p>
+            <p>Başlangıç ve diğer durakları harita üzerinde kolayca ekle.</p>
           </article>
 
           <article class="feature-card">
@@ -753,9 +753,7 @@
               </svg>
             </div>
             <h3>Optimize Edilmiş Rota</h3>
-            <p>
-              Konumların sırası rota deneyimini doğrudan etkiler. Rota, planlama mantığını daha verimli hale getirerek en kısa yol alternatiflerini değerlendirmeyi kolaylaştırır ve kullanıcıya daha kontrollü bir güzergâh düzeni sunar.
-            </p>
+            <p>En kısa yol seçeneklerini daha verimli değerlendirmeyi kolaylaştırır.</p>
           </article>
 
           <article class="feature-card">
@@ -766,36 +764,7 @@
               </svg>
             </div>
             <h3>Kayıtlı Haritalar</h3>
-            <p>
-              Oluşturulan planların saklanabilmesi, uygulamayı tek kullanımlık bir araç olmaktan çıkarır. Kullanıcı daha önce hazırladığı haritaları yeniden açabilir, güncelleyebilir ve tekrar kullanabilir.
-            </p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="4" width="18" height="14" rx="2"></rect>
-                <path d="M8 20h8"></path>
-                <path d="M12 18v2"></path>
-              </svg>
-            </div>
-            <h3>Web ve Mobil Uyum</h3>
-            <p>
-              Arayüz farklı ekran boyutlarında okunabilirliğini koruyacak şekilde kurgulanır. Bu da hem masaüstü kullanımında genişlik avantajı sağlar hem de mobilde sıkışık bir deneyimi önler.
-            </p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 12h18"></path>
-                <path d="M12 3v18"></path>
-              </svg>
-            </div>
-            <h3>Yakıt Tasarrufu Odağı</h3>
-            <p>
-              Daha düzenli ve kısa güzergâh planlaması yalnızca zaman kazandırmaz. Aynı zamanda gereksiz dolaşımı azaltarak sürüş sürecinde yakıt tüketimini düşürmeye yardımcı olan işlevsel bir avantaj üretir.
-            </p>
+            <p>Haritalarını kaydet, tekrar aç ve düzenle.</p>
           </article>
 
           <article class="feature-card">
@@ -809,9 +778,30 @@
               </svg>
             </div>
             <h3>Haritanı Paylaş</h3>
-            <p>
-              Oluşturduğun haritayı arkadaşlarınla paylaşarak ortak plan yapmayı kolaylaştırabilirsin. Bu özellik, uygulamayı yalnızca kişisel bir rota aracı olmaktan çıkarıp birlikte kullanılabilen pratik bir planlama alanına dönüştürür.
-            </p>
+            <p>Oluşturduğun haritayı arkadaşlarınla kolayca paylaş.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12h18"></path>
+                <path d="M12 3v18"></path>
+              </svg>
+            </div>
+            <h3>Yakıt Tasarrufu Odağı</h3>
+            <p>Daha düzenli güzergâh planlaması gereksiz dolaşımı azaltmaya yardımcı olur.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="14" rx="2"></rect>
+                <path d="M8 20h8"></path>
+                <path d="M12 18v2"></path>
+              </svg>
+            </div>
+            <h3>Mobil Web App Deneyimi</h3>
+            <p>Hem Android hem iPhone’da mobil web app olarak kullanılabilir.</p>
           </article>
         </div>
       </div>
@@ -821,9 +811,7 @@
       <div class="container">
         <div class="section-head">
           <h2>Nasıl çalışır?</h2>
-          <p>
-            Kayıt ol, giriş yap ve deneme sürümünden hemen başla.
-          </p>
+          <p>Kayıt ol, giriş yap ve deneme sürümünden hemen başla.</p>
         </div>
 
         <div class="steps">
@@ -841,7 +829,7 @@
 
           <article class="step-card">
             <div class="step-no">03</div>
-            <h3>Kaydet ve yeniden kullan</h3>
+            <h3>Kaydet ve kullan</h3>
             <p>Hazır haritanızı Google Haritalar’da yol tarifine dönüştürün.</p>
           </article>
         </div>
@@ -852,10 +840,8 @@
       <div class="container">
         <div class="cta">
           <div>
-            <h3>Rota ile plan karmaşasını sadeleştir.</h3>
-            <p>
-              Daha hızlı, daha sade ve daha akıllı rota planlama deneyimi.
-            </p>
+            <h3>Rota ile planlamayı sadeleştir.</h3>
+            <p>Daha hızlı, daha sade ve daha akıllı rota planlama deneyimi.</p>
           </div>
           <a class="btn btn-primary" href="https://aaksac.github.io/routee/index.html">Deneme Sürümünü İncele</a>
         </div>
