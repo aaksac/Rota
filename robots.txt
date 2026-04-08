@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aaksac.github.io/routee/sitemap.xml
+Sitemap: https://aaksac.github.io/Rota/sitemap.xml
